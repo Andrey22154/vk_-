@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import lightgbm as lgb
 
-data = pd.read_csv("path")
+data = pd.read_parquet("path")
 
 not_un = []
 
